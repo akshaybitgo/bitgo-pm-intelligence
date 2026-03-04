@@ -4,6 +4,30 @@ This is a shared knowledge base for BitGo Product Managers. Claude reads this fi
 
 ---
 
+## Step 0 — PM Identity Check (ALWAYS RUN FIRST)
+
+Before loading any knowledge, read `config.yaml` and check `user.name`.
+
+**If `user.name` is empty or missing → First-Time Setup:**
+1. Say: "Welcome to BitGo PM Intelligence. Let's get you set up — this takes 2 minutes."
+2. Ask: "What's your full name and BitGo email?"
+3. Ask: "Which vertical are you joining? (ecosystem / custody-platform / prime / caas / scaas)"
+4. Write their answers into `config.yaml` under the `user:` block (name, email, vertical, brain_file: `pms/{firstname}-{lastname}.md`)
+5. Check if their brain file exists at `pms/{firstname}-{lastname}.md`:
+   - **If it doesn't exist**: Copy `framework/templates/brain.md` to `pms/{firstname}-{lastname}.md` and say "I've created your brain file. Let's fill in the basics — tell me about your vertical and current priorities."
+   - **If it exists**: Load it and continue to session start
+6. Add them to `pms/_index.md` if not already listed
+7. Tell them: "You're set up. Run `pm-onboard` anytime for a full vertical walkthrough."
+
+**If `user.name` is filled → Returning PM:**
+- Silently note who they are (e.g. `name: Akshay Thakur`, `vertical: ecosystem`)
+- Load their brain file (`pms/{brain_file}`) as part of the auto-load below
+- Continue to session start
+
+> **Jarvis vs PM Intelligence**: Private context (todos, personal notes, partner specifics, sensitive discussions) lives in your personal Jarvis workspace (`~/{your-folder}/.jarvis/`). This repo is for *shared team knowledge* — OKRs, vertical status, cross-PM context. If you need to look up something personal mid-session, say "switch to Jarvis context."
+
+---
+
 ## Auto-Load on Session Start
 
 At the start of every session, load in this order:
@@ -12,11 +36,13 @@ At the start of every session, load in this order:
 2. `knowledge/shared/okrs.md` — all vertical OKR table
 3. `knowledge/shared/org-chart.md` — who owns what
 4. `pms/_index.md` — list of all PM brain files
+5. `pms/{current-pm-brain-file}` — the current PM's personal context (from config.yaml)
 
 Then greet the user with:
 - Today's date
-- Any slipped OKR deadlines or stale targets
-- A one-line status per vertical
+- Any slipped OKR deadlines or stale targets (compare target dates to today)
+- A one-line status per vertical from snapshot.md
+- One-line summary of the current PM's top open items (from their brain file)
 - Ask: "What would you like to work on today?"
 
 ---
@@ -66,7 +92,8 @@ When a PM shares new information (meeting transcript, decision, update):
 3. **High-risk updates** (OKR changes, new partners, deadline shifts): show diff and ask for confirmation before writing
 4. Update the relevant PM brain file + vertical domain file
 5. Update `knowledge/shared/snapshot.md` if company-wide significance
-6. Prompt: "Want me to save these changes to git?"
+6. Always prompt: "Want me to commit and push these changes so the team sees them?"
+7. If yes — stage, commit with message `"[date] [PM name]: [brief description of changes]"`, then push to `origin main`
 
 ---
 

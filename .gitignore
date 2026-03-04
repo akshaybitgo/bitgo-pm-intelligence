@@ -1,53 +1,33 @@
-# Sensitive Data
-*.env
-.env.*
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Claude / Cowork session files
+.claude/
+.cowork/
+
+# Local config overrides (create config.local.yaml for personal settings you don't want to commit)
+config.local.yaml
+
+# Credentials and tokens (never commit these)
+*.token
 *.key
 *.pem
-*.secret
-*credentials*
-*token*
-*.p12
-*.pfx
+secrets.yaml
+.env
 
-# Personal / private files
-personal/
-private/
-*.personal.md
-*_private.md
-
-# OS and Editor Files
-.DS_Store
-.DS_Store?
-._*
-Thumbs.db
+# Editor
+.vscode/
+.idea/
 *.swp
 *.swo
-*~
-.idea/
-.vscode/
 
-# Temporary Files
-*.tmp
-*.temp
-.cache/
-tmp/
-temp/
-
-# Transcript Source Files (processed and removed)
-*.otter.json
-*.otter.txt
-*.vtt
-*.srt
-transcripts/raw/
-
-# Log Files
-*.log
-logs/
-
-# Node modules
-node_modules/
-
-# Python
+# Python / scripts
 __pycache__/
 *.pyc
 .venv/
+
+# Logs
+*.log
