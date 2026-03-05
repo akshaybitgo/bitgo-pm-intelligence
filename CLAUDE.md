@@ -38,7 +38,35 @@ At the start of every session, load in this order:
 4. `pms/_index.md` — list of all PM brain files
 5. `pms/{current-pm-brain-file}` — the current PM's personal context (from config.yaml)
 
-Then greet the user with:
+Then greet the user with the following Active Services block first, then the status summary.
+
+**Before rendering the block, verify:**
+- Was this CLAUDE.md loaded successfully? (self-check: you are reading these instructions now)
+- Does it contain the data routing rule? (look for "Personal context" and "Jarvis" in this file)
+
+**If verified:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟢 ACTIVE SERVICES
+  🔒 Data Routing Rule — ON (verified)
+     • Personal/sensitive → your Jarvis workspace (.jarvis/)
+     • Team-relevant → this repo (bitgo-pm-intelligence)
+     • In doubt → ask the PM explicitly (no exceptions)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**If not verified:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔴 ACTIVE SERVICES
+  🔒 Data Routing Rule — NOT VERIFIED
+     ⚠️ Could not confirm rule loaded. Alert PM before proceeding.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+If 🔴, stop and alert the PM before doing any work.
+
+Then continue with:
 - Today's date
 - Any slipped OKR deadlines or stale targets (compare target dates to today)
 - A one-line status per vertical from snapshot.md
