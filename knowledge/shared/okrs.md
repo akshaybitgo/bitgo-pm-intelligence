@@ -29,6 +29,10 @@ maintainer: PM Team
 
 | PM | OKR | Target | Status |
 |----|-----|--------|--------|
+| Akshay Thakur | AUC growth (Q1/Q2 new cohort) | +>$2.5B | 🟡 At Risk |
+| Akshay Thakur | Net revenue run-rate by 6/30 | >$15M | 🟡 At Risk |
+| Akshay Thakur | AI architecture: generic agentic framework — any use case buildable in <30 min | Q2 2026 | 🟡 Architecture phase |
+| Akshay Thakur | AI architecture: self-reflection loop live — agents create V2 via user feedback | Q3 2026 | ⚪ Planned |
 | Gaurav Pal | Staking utilization of eligible assets (Q1/Q2 cohort) | 30% | 🟡 In Progress |
 | Richard Xie | Staking AUC growth | +$4B | 🟡 In Progress |
 | Richard Xie | Staking revenue | +$5M | 🟡 In Progress |
@@ -90,5 +94,5 @@ maintainer: PM Team
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-05*
 *PMs: update your vertical's OKR rows when status changes. Run `pm-status-check` to get a full assessment.*

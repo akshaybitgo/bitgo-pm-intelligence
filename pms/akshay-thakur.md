@@ -33,6 +33,8 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 | Auto Staking to GA | OKR6: 7 beta clients → GA cohort | Q1/Q2 | 🟢 Beta underway |
 | Platform expansion | OKR7: Go Accounts hub live for key clients | H1 2026 | 🟢 Figure live |
 | Security posture | OKR8: Offensive security initiatives scoped | Q2 2026 | 🟡 CEO briefed, not scoped |
+| AI architecture strategy | OKR9: Generic agentic framework — any use case buildable in <30 min | Q2 2026 | 🟡 Architecture phase |
+| AI architecture strategy | OKR10: Self-reflection loop live — agents iteratively create V2 via user feedback | Q3 2026 | ⚪ Planned |
 
 ---
 
@@ -55,6 +57,8 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 | Utilization Rate Framework | 🟡 Definition phase | TBD | Looker dashboard extension; Sukriti + team |
 | Q2 Roadmap v1 | 🟡 In Progress | Mar 4 2026 | All PMs to mark items in/out by tomorrow |
 | bitgo-pm-intelligence repo (team rollout) | 🟡 In Progress | Near-term | Demoed to team Mar 3; GitHub link to be shared |
+| AI Agent Architecture — Generic Framework | 🟡 Architecture phase | Q2 2026 | Gobi (quick iteration stream) + Ahmed (dev XP alignment) |
+| AI Agent Architecture — Self-Reflection Loops | ⚪ Planned | Q3 2026 | Q2 framework must be live first |
 
 ---
 
@@ -97,6 +101,9 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 - [ ] Schedule follow-up sessions on utilization rate framework definition (with Sukriti)
 - [ ] Share bitgo-pm-intelligence GitHub link with team so all PMs can clone + contribute
 - [ ] Define HTTPX metrics for success and chain engagement playbook (Monad, Zama first)
+- [ ] Finalize generic agentic framework architecture (class definitions, inheritance model, meta-level MCP design)
+- [ ] Schedule alignment call with Gobi + Ahmed to reconcile developer experience scope with general AI framework
+- [ ] Confirm budget + Singapore AI R&D event attendance for Gobi (by Mar 9)
 
 ---
 
@@ -108,6 +115,9 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 | 2026-03-03 | HTTPX = central on-chain settlement layer | On-chain equivalent of Go Accounts; serves all bespoke chain integrations |
 | 2026-03-03 | bitgo-pm-intelligence demoed to full ecosystem team | Team-wide adoption planned; PMs to create brain files and contribute to repo |
 | 2026-03-03 | Q2 roadmap: focus on 1–2 signals not number of projects | All PMs to mark Q2 items in/out by Mar 4 |
+| 2026-03-05 | Akshay owns BitGo AI agent architecture strategy | Building generic agentic framework so any use case can be spun up in <30 min; institutional focus; two-stream with Gobi |
+| 2026-03-05 | Two-stream AI development model agreed | Gobi: quick iteration + hypothesis testing (constrained, not GA); Akshay: generic framework + psychological applicability of AI |
+| 2026-03-05 | Contrarian position: double down on institutional clients, not consumer agentic wallets | Coinbase-style consumer features are not where institutional clients are comfortable |
 | 2026-03-02 | CEO greenlit Figure Phase 1-2 negotiation | BitGo drove clients + holds assets; should earn on flow |
 | 2026-03-02 | Offensive security raised as strategic priority | Lazarus Group-style attacks targeting crypto infra individuals |
 | 2026-03-02 | CISO + R&D joint ownership asked of CEO | Sequential model (R&D builds → security reviews) too slow |
@@ -152,6 +162,19 @@ Emerging vision from Mar 3 ecosystem weekly. Standard chain onboarding revenue i
 ### Agent Wallets (NEW 2026-03-03)
 New product concept introduced in Mar 3 weekly. Abishek Singh has done a demo; Nuri has native Hyperliquid wallet integrations. Team-wide brainstorm underway — all PMs documenting ideas this week and next. Akshay to distill into a baseline understanding and integrate into the ecosystem stack. Early-stage but flagged as strategically important alongside HTTPX.
 
+### AI Agent Architecture Strategy (NEW 2026-03-05)
+Akshay owns the generic agentic framework for BitGo — a meta-level MCP architecture that defines reusable classes and an inheritance model, so any new use case or persona-specific agent can be built in under 30 minutes on top of it. Focus: institutional clients (not consumer agentic wallets). Cross-sell and internal enablement (sales reps, CSMs) are primary targets alongside product workflows.
+
+**Two-stream development model**:
+- **Stream 1 — Gobi Nadesh**: Quick iteration, constrained releases (not GA), hypothesis testing, early user feedback gathering on initial AI concepts
+- **Stream 2 — Akshay Thakur**: Generic agentic framework — class definitions, inheritance model, psychological applicability of AI, incorporating Gobi's feedback into architecture
+
+**Key architecture principle**: Self-reflection built in from V1 — agents use user feedback to iteratively create V2 versions of themselves (hub-and-spoke orchestration model: one orchestrator managing + enabling sub-agents).
+
+**Ahmed alignment needed**: Ahmed's current scope (MCP server for developer experience) is too narrow. Akshay's view: needs a year-out vision for who uses this and what tools each persona needs (CSMs, sales, developers all need it). Alignment call with Gobi + Ahmed to reconcile developer experience scope with the general framework approach — pending scheduling.
+
+**Contrarian position on agentic wallets**: Institutional clients are not comfortable with Coinbase-style consumer agentic wallets. BitGo should double down on institutional clients with the generic framework, not chase consumer trends.
+
 ### Utilization Rate Framework (NEW 2026-03-03)
 New measurement framework being developed to extend the Looker dashboard beyond staking penetration. Two definitions: (1) rate of fund flow — how quickly assets traverse from custody to downstream products (Token Management, Trade); "M2 macro equivalent." (2) snapshot utilization — how much of an asset is deployed in staking, DeFi, or settled through trade at a given point. Sukriti Garg owns the dashboard; team providing input on definitions. Follow-up sessions to be scheduled.
 
@@ -166,4 +189,4 @@ From Looker dashboard review in Mar 3 weekly:
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-05*
