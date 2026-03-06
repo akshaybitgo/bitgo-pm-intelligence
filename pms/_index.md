@@ -17,9 +17,17 @@ last_updated: 2026-03-03
 
 | PM | Vertical | Brain File | Status | Last Updated |
 |----|----------|-----------|--------|--------------|
-| Akshay Thakur | Ecosystem & Platform | [akshay-thakur.md](akshay-thakur.md) | ✅ Active | 2026-03-05 |
-| Gobi Nadesh | Ecosystem — Integrated Account Hub | [gobi-nadesh.md](gobi-nadesh.md) | ✅ Active | 2026-03-05 |
+| Akshay Thakur | Ecosystem & Platform (Director) | [akshay-thakur.md](akshay-thakur.md) | ✅ Active | 2026-03-05 |
+| Abhishek Singh Soni | Ecosystem — Asset Onboarding + Canton | [abhishek-singh.md](abhishek-singh.md) | ✅ Active | 2026-03-05 |
+| Anantha Padmanabhan | Ecosystem — Staking Onboardings + QA | [anantha-padmanabhan.md](anantha-padmanabhan.md) | ✅ Active | 2026-03-05 |
+| Emerick Mary | Ecosystem — Institutional DeFi | [emerick-mary.md](emerick-mary.md) | ✅ Active | 2026-03-05 |
+| Gaurav Pal | Ecosystem — Staking Utilization + Auto Staking | [gaurav-pal.md](gaurav-pal.md) | ✅ Active | 2026-03-05 |
+| Gobi Nadesh | Ecosystem — Integrated Account Hub (Go Accounts) | [gobi-nadesh.md](gobi-nadesh.md) | ✅ Active | 2026-03-05 |
+| Kushagra Sharma | Ecosystem — EVM Chain Onboarding (New) | [kushagra-sharma.md](kushagra-sharma.md) | ✅ Active | 2026-03-05 |
+| Landon Chow | Ecosystem — Token Management (TKM) | [landon-chow.md](landon-chow.md) | ✅ Active | 2026-03-05 |
+| Richard Xie | Ecosystem — Staking Infrastructure + Go Validator | [richard-xie.md](richard-xie.md) | ✅ Active | 2026-03-05 |
 | Ahmed Elmasry | Custody Platform — HSM & MPC + Dev XP | [ahmed-elmasry.md](ahmed-elmasry.md) | ✅ Active | 2026-03-05 |
+| Connor | Custody Platform — Wallets Platform | _not yet created_ | 📝 Stub needed — awaiting OKRs | — |
 | _(Prime PM)_ | Prime | _not yet created_ | 📝 Stub needed | — |
 | _(CaaS PM)_ | CaaS | _not yet created_ | 📝 Stub needed | — |
 | _(SCaaS PM)_ | SCaaS | _not yet created_ | 📝 Stub needed | — |
@@ -53,4 +61,4 @@ See `framework/templates/brain.md` for the full template. The brain file capture
 
 ---
 
-*Last updated: 2026-03-05*
+*Last updated: 2026-03-05 — added 7 ecosystem PM brain files from Q1/Q2 roadmap CSV*

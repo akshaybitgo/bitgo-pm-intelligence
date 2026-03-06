@@ -41,7 +41,7 @@ refreshed: 2026-03-02
 - WalletConnect analytics (Snowflake pipelines + local dashboard)
 - Token Management integration (TKM → Go → trade/stake)
 
-### Token Management (Landon + Sreeraj)
+### Token Management (Landon Chow)
 - Goal: $1M trade volume by end of March via grantee comms/whitelisting
 - Telemetry: grant wallet → Go Accounts → trade/stake (by end of month)
 - Exploring "on-chain OTC" for synchronized unlock days

@@ -46,7 +46,6 @@ Akshay Thakur owns two verticals: **Ecosystem** and **Platform**. He sets strate
 | Name | Location | Role | Focus |
 |------|----------|------|-------|
 | Landon Chow | New York | PM | Token Management; trading flywheel; grantee comms |
-| Sreeraj | TBD | TBD | TKM / Go Accounts onboarding |
 
 ## Cross-functional Partners
 
@@ -55,7 +54,7 @@ Akshay Thakur owns two verticals: **Ecosystem** and **Platform**. He sets strate
 | Mike | CEO |
 | Nuri | CPO |
 | Chen | CRO |
-| Michael | Yield-generating assets OKR lead |
+| Michael Wei | Yield-generating assets — Akshay's peer (CPO org), not a direct report |
 | Kevin Son | Binance trading/OES |
 | Jody | Insurance/slashing protection |
 
@@ -67,7 +66,7 @@ Akshay Thakur owns two verticals: **Ecosystem** and **Platform**. He sets strate
 | Landon | TKM trade revenue $0 → $1M |
 | Abhishek | Top 950/1000 asset coverage by mkt cap |
 | Gaurav | 30% staking utilization of eligible assets (Q1/Q2) |
-| Michael | Grow yield-generating AUC $14B → $18.5B |
+| Michael Wei | Grow yield-generating AUC $14B → $18.5B *(peer — informational only)* |
 | Richard | +$4B staking AUC; +$5M staking revenue |
 | Emerick | ≥$500M DeFi AUC; +$5M DeFi revenue |
 

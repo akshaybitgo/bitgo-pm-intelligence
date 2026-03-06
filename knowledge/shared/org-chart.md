@@ -34,7 +34,6 @@ maintainer: PM Team
 | Institutional DeFi | Emerick Mary | Toronto |
 | Go Accounts + Hub-and-Spoke | Gobi Nadesh | Toronto |
 | Token Management | Landon Chow | New York |
-| TKM / Go Accounts Onboarding | Sreeraj | TBD |
 | Ecosystem Initiatives (new) | Kushagra Sharma | Bangalore |
 | Ecosystem Execution (TPM) | Akash Nathrani | Bangalore |
 
