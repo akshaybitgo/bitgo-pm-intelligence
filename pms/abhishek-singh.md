@@ -1,23 +1,23 @@
 ---
 type: pm-brain
-name: Abhishek Singh Soni
+name: Abishek Singh
 slug: abhishek-singh
 vertical: ecosystem
 title: PM — Asset Onboarding + Canton Strategy
-last_updated: 2026-03-05
+last_updated: 2026-03-06
 tags: [asset-onboarding, canton, chain-onboarding, token-onboarding, ams, evm, midnight, top-1000, utxo]
 ---
 
-# Abhishek Singh Soni — PM Brain
+# Abishek Singh — PM Brain
 
 ## Role & Scope
 
 **Title**: PM — Asset Onboarding + Canton Strategy
 **Location**: Bangalore
-**Vertical**: Ecosystem (also matrixed into Custody Platform as India wallet platform lead)
+**Vertical**: Ecosystem
 **Reports to**: Akshay Thakur
 
-Abhishek owns two areas: (1) the full asset and chain onboarding pipeline — getting new blockchains and tokens live on BitGo at scale and at low cost — and (2) the Canton Network partnership and USDCX/CBTC token strategy. He also serves as the India wallet platform lead in the Custody Platform vertical, working with Connor.
+Abishek owns two areas: (1) the full asset and chain onboarding pipeline — getting new blockchains and tokens live on BitGo at scale and at low cost — and (2) the Canton Network partnership and USDCX/CBTC token strategy. He drives the AMS (Asset Management System) roadmap and coordinates closely with Abhishek Singh Soni on privacy chain onboarding (Midnight).
 
 ---
 
@@ -81,7 +81,7 @@ Abhishek owns two areas: (1) the full asset and chain onboarding pipeline — ge
 
 ## Key Blockers
 
-- **Midnight Network (P0, Blocked)**: Canton/Midnight dep or eng blocker — needs resolution to hit $3.1-3.6M NRE
+- **Midnight Network (P0, Blocked)**: Privacy chain blocker — tracked in Abishek's CSV but Abhishek Singh Soni owns privacy chains strategy; needs resolution to hit $3.1-3.6M NRE. Clarify ownership split.
 - **Canton AUC at Risk**: Haven deposit support needed to unlock ~$3.5B AUC; DTCC DVP settlement target mid-March
 
 ---

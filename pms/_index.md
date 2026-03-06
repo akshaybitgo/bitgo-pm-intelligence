@@ -18,7 +18,8 @@ last_updated: 2026-03-03
 | PM | Vertical | Brain File | Status | Last Updated |
 |----|----------|-----------|--------|--------------|
 | Akshay Thakur | Ecosystem & Platform (Director) | [akshay-thakur.md](akshay-thakur.md) | ✅ Active | 2026-03-05 |
-| Abhishek Singh Soni | Ecosystem — Asset Onboarding + Canton | [abhishek-singh.md](abhishek-singh.md) | ✅ Active | 2026-03-05 |
+| Abishek Singh | Ecosystem — Asset Onboarding + Canton | [abhishek-singh.md](abhishek-singh.md) | ✅ Active | 2026-03-06 |
+| Abhishek Singh Soni | Ecosystem — Privacy Chains + EVM Batch Onboarding | [abhishek-singh-soni.md](abhishek-singh-soni.md) | 📝 Partial — initiatives TBD | 2026-03-06 |
 | Anantha Padmanabhan | Ecosystem — Staking Onboardings + QA | [anantha-padmanabhan.md](anantha-padmanabhan.md) | ✅ Active | 2026-03-05 |
 | Emerick Mary | Ecosystem — Institutional DeFi | [emerick-mary.md](emerick-mary.md) | ✅ Active | 2026-03-05 |
 | Gaurav Pal | Ecosystem — Staking Utilization + Auto Staking | [gaurav-pal.md](gaurav-pal.md) | ✅ Active | 2026-03-05 |
