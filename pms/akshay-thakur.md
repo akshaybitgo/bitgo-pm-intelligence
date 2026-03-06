@@ -4,7 +4,7 @@ name: Akshay Thakur
 slug: akshay-thakur
 vertical: ecosystem
 title: Director of Product — Ecosystems & Platform
-last_updated: 2026-03-03
+last_updated: 2026-03-06
 tags: [ecosystem, platform, staking, chains, defi, tokenized-assets, canton, figure, httpx, agent-wallets, utilization-rate]
 ---
 
@@ -86,7 +86,8 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 |---------|----------|-----------------|--------|
 | Figure Markets | P0 | Strategic roadmap (Phases 1-5); revenue model negotiation | Active |
 | Canton Network (Digital Asset) | P0 | SV strategy; USDCX/CBTC; Haven/DTCC onboarding | Active |
-| Blockaid | P1 | Transaction risk scoring integration | Planned |
+| Bullish exchange (DeFi skunkworks) | P1 | Early DeFi discovery; Narval + Blockaid path; exchange-side initiative separate from capital arm | Early discovery |
+| Blockaid | P1 | Transaction risk scoring integration; Bullish intro arranged | Planned |
 | Chain/token pipeline partners | P1 | Commercial alignment for new integrations | Ongoing |
 
 ---
@@ -107,6 +108,7 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 
 ## Open Items
 
+- [ ] **[ASAP]** Introduce Paul Trudgian (Bullish exchange) to Blockaid founder — agreed on Mar 6 call
 - [ ] Finalize Figure Markets Phase 1 bps rate + volume projection model
 - [ ] Confirm Canton USDCX/CBTC actual delivery date with Abhishek
 - [ ] Get CEO endorsement: CISO + R&D joint ownership of offensive security
@@ -136,6 +138,7 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 | 2026-03-05 | Akshay owns BitGo AI agent architecture strategy | Building generic agentic framework so any use case can be spun up in <30 min; institutional focus; two-stream with Gobi |
 | 2026-03-05 | Two-stream AI development model agreed | Gobi: quick iteration + hypothesis testing (constrained, not GA); Akshay: generic framework + psychological applicability of AI |
 | 2026-03-05 | Contrarian position: double down on institutional clients, not consumer agentic wallets | Coinbase-style consumer features are not where institutional clients are comfortable |
+| 2026-03-06 | Bullish exchange DeFi discovery call — two distinct threads | Exchange-side skunkworks (Vince Liu + Paul Trudgian) separate from capital arm (uses Fortify/Firebox). Exchange prefers Narval wallet connectivity path. Blockaid intro offered. Narval launching imminently — target Bullish as early client. |
 | 2026-03-02 | CEO greenlit Figure Phase 1-2 negotiation | BitGo drove clients + holds assets; should earn on flow |
 | 2026-03-02 | Offensive security raised as strategic priority | Lazarus Group-style attacks targeting crypto infra individuals |
 | 2026-03-02 | CISO + R&D joint ownership asked of CEO | Sequential model (R&D builds → security reviews) too slow |

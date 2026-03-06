@@ -28,9 +28,10 @@ refreshed: 2026-03-02
 
 | Opportunity | Stage | Notes |
 |-------------|-------|-------|
-| Maple Finance | Institutional DeFi | OC charter enables non-fiduciary actions + liquid pools; quantify business impact |
+| Bullish exchange (DeFi skunkworks) | Early discovery | Exchange-side skunkworks (separate from Bullish capital arm which uses Fortify/Firebox). Engineering + corp ops due diligence. Want Eth+Solana DeFi capability, dirty fund checks, pre-tx screening. Interested in **Narval path** (wallet connectivity). Blockaid intro arranged by Akshay. May want to deploy own EVM DeFi protocol — major enterprise win if it materializes. Slack channel agreed for comms. Vince Liu (eng lead), Paul Trudgian (exec sponsor). *(Mar 6, 2026)* |
+| Maple Finance | Institutional DeFi | OC charter enables non-fiduciary actions + liquid pools; quantify business impact. Also a Narval launch DApp. |
 | Morpho | Institutional DeFi | Vaults marketplace candidate |
-| Narval | Institutional DeFi | Vaults candidate |
+| Narval | Institutional DeFi | **Launching this month (Mar 2026)**; qualified custody DeFi access; human-readable tx decoding; DDQ/whitelist DApp process; first DApps: Maro, Maple Finance, Spark; whitelist specific pools OR entire DApp; UI + API access; transactions signed in Narval trusted environment |
 | Canton long-term | Tokenized US Treasuries / DTCC settlement | 1–3 year horizon; ~5% of tx fees + SV Cantoncoin rewards |
 | Monument Bank (UK) | Midnight / privacy chain custody | ~$10B tokenized fund potential |
 | Story Protocol | Go validator | ~$3M Story; spinning up Go validator |
@@ -47,6 +48,7 @@ refreshed: 2026-03-02
 - Blockdaemon + Figment: main validator competitors; build validator compare matrix (deficits, parity plan, single-vendor selling point)
 - Coinbase: Agentic Wallets product; Miston Labs moved ~$750M Sooie there
 - Circle CPN, Fireblocks, Anchorage: custody/institutional DeFi competitors
+- **Blockaid** (pre-tx simulation provider): EVM integration already live at BitGo; Solana support ~weeks away. Forks blockchain, executes tx, shows end state + ML fraud scan. CEO-endorsed security initiative. PM/ENG owner TBD.
 
 ## Notable Watch Items
 
@@ -57,4 +59,4 @@ refreshed: 2026-03-02
 
 ---
 
-*Last updated: 2026-03-02*
+*Last updated: 2026-03-06*
