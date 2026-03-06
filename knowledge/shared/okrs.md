@@ -44,9 +44,23 @@ maintainer: PM Team
 
 ### Custody Platform
 
-| PM | OKR | Target | Status |
-|----|-----|--------|--------|
-| TBD | [To be filled by Custody Platform PM] | | ⚪ Not Set |
+| PM | Objective | Key Result | Target | Status |
+|----|-----------|-----------|--------|--------|
+| Ahmed Elmasry | Obj 1: Default MPC migration destination | Ship Fireblocks → BitGo key-preserving migration; ≥1 live enterprise migration, zero re-keying | 1 live migration | ⚪ Planned |
+| Ahmed Elmasry | Obj 1: Default MPC migration destination | Reusable migration playbook ≥2 providers (Fireblocks + 1 other), validated by R&D | 2 providers | ⚪ Planned |
+| Ahmed Elmasry | Obj 1: Default MPC migration destination | *(Stretch)* ≥3 qualified enterprise migration conversations in CRM by 6/30 | 3 conversations | ⚪ Stretch |
+| Ahmed Elmasry | Obj 2: Developer control plane as default integration layer | Developer Dashboard live; 70%+ active adoption among API customers by 6/30 | 70% adoption | ⚪ Planned |
+| Ahmed Elmasry | Obj 2: Developer control plane as default integration layer | MCP-backed AI assistant embedded; -30% developer support ticket volume (baseline by end of March) | -30% tickets | ⚪ Planned |
+| Ahmed Elmasry | Obj 2: Developer control plane as default integration layer | Reduce time-to-first-API-call for net new integrators by 20% | -20% TTFC | ⚪ Planned |
+| Ahmed Elmasry | Obj 2: Developer control plane as default integration layer | Integrator NPS +5 pts; baseline survey by Mar 31, target confirmed by Apr 15 | +5 NPS pts | ⚪ Planned |
+| Ahmed Elmasry | Obj 3: Harden and future-proof signing stack | EdDSA → threshold EdDSA/Schnorr + GG18 → DKLS-23 to production; zero regression | Prod by 6/30 | 🟡 In Progress |
+| Ahmed Elmasry | Obj 3: Harden and future-proof signing stack | FROST-based signing for Zcash shielded tx; ≥1 enterprise client live | 1 enterprise live | ⚪ Planned |
+| Ahmed Elmasry | Obj 3: Harden and future-proof signing stack | AI-driven red team exercise; ≥5 ranked remediation items; ≥3 resolved/scheduled in H1 | Report + 3 remediations | ⚪ Planned |
+| Ahmed Elmasry | Obj 3: Harden and future-proof signing stack | Publish PQC readiness roadmap: threat model + 3-year migration path + ≥1 pilot scoped | Published H1 | ⚪ Planned |
+| Ahmed Elmasry | Obj 4: Institutional-grade agentic wallet foundation | Agent monitoring dashboard live for internal testing by 5/15 (logs, spend, circuit breakers, audit trail) | Live 5/15 | ⚪ Planned |
+| Ahmed Elmasry | Obj 4: Institutional-grade agentic wallet foundation | Agent policy guardrails (spend limits, circuit breakers, expiry, approval gates) — 100% agent signing coverage | 100% coverage | ⚪ Planned |
+| Ahmed Elmasry | Obj 4: Institutional-grade agentic wallet foundation | Wallet primitives via internal MCP layer; ≥3 internal teams/pilot partners using agent APIs by 6/30 | 3 internal users | ⚪ Planned |
+| Ahmed Elmasry | Obj 4: Institutional-grade agentic wallet foundation | *(Stretch)* Co-define agentic wallet interface standards with ≥1 ecosystem partner | 1 partner | ⚪ Stretch |
 
 ### Prime
 

@@ -17,9 +17,9 @@ last_updated: 2026-03-03
 
 | PM | Vertical | Brain File | Status | Last Updated |
 |----|----------|-----------|--------|--------------|
-| Akshay Thakur | Ecosystem & Platform | [akshay-thakur.md](akshay-thakur.md) | ✅ Active | 2026-03-03 |
+| Akshay Thakur | Ecosystem & Platform | [akshay-thakur.md](akshay-thakur.md) | ✅ Active | 2026-03-05 |
 | Gobi Nadesh | Ecosystem — Integrated Account Hub | [gobi-nadesh.md](gobi-nadesh.md) | ✅ Active | 2026-03-05 |
-| _(Custody PM)_ | Custody & Platform | _not yet created_ | 📝 Stub needed | — |
+| Ahmed Elmasry | Custody Platform — HSM & MPC + Dev XP | [ahmed-elmasry.md](ahmed-elmasry.md) | ✅ Active | 2026-03-05 |
 | _(Prime PM)_ | Prime | _not yet created_ | 📝 Stub needed | — |
 | _(CaaS PM)_ | CaaS | _not yet created_ | 📝 Stub needed | — |
 | _(SCaaS PM)_ | SCaaS | _not yet created_ | 📝 Stub needed | — |
@@ -53,4 +53,4 @@ See `framework/templates/brain.md` for the full template. The brain file capture
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-05*
